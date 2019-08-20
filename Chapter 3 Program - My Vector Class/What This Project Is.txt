@@ -1,0 +1,3 @@
+This project show cases making a templated class called My_Vector. My_Vector acts like a typical vector in C++, and my version overloads operators +, -, *, +=, -=,
+*=, /=. It also overloads <<, []. I made a destructor, constructor using a int, constructor using an initializer list, a copy constructor, copy assignment constructor,
+move constructor, move assignment constructor. This also implements an invariant concept for a class, as well as the concept of RAII.
