@@ -1,0 +1,2 @@
+Hello. My name is Gary. This is an example text file, to test my program using in and out stram iterators.
+I hope it works! I am learning a lot about iterators and streams in general!

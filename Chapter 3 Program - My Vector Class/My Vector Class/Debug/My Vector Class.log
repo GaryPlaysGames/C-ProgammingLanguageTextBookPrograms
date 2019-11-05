@@ -1,2 +1,7 @@
-﻿  My Vector Class.vcxproj -> C:\Users\Gary\Documents\Visual Studio 2017\Projects\My Vector Class\Debug\My Vector Class.exe
-  My Vector Class.vcxproj -> C:\Users\Gary\Documents\Visual Studio 2017\Projects\My Vector Class\Debug\My Vector Class.pdb (Partial PDB)
+﻿  main.cpp
+c:\users\gary\documents\visual studio 2017\projects\chapter 3 program - my vector class\my vector class\my_vector.h(138): warning C4715: 'My_Vector<int>::operator+=': not all control paths return a value
+c:\users\gary\documents\visual studio 2017\projects\chapter 3 program - my vector class\my vector class\my_vector.h(174): warning C4715: 'My_Vector<int>::operator*=': not all control paths return a value
+c:\users\gary\documents\visual studio 2017\projects\chapter 3 program - my vector class\my vector class\my_vector.h(150): warning C4715: 'My_Vector<int>::operator-=': not all control paths return a value
+c:\users\gary\documents\visual studio 2017\projects\chapter 3 program - my vector class\my vector class\my_vector.h(162): warning C4715: 'My_Vector<int>::operator/=': not all control paths return a value
+  My Vector Class.vcxproj -> C:\Users\Gary\Documents\Visual Studio 2017\Projects\Chapter 3 Program - My Vector Class\Debug\My Vector Class.exe
+  My Vector Class.vcxproj -> C:\Users\Gary\Documents\Visual Studio 2017\Projects\Chapter 3 Program - My Vector Class\Debug\My Vector Class.pdb (Partial PDB)

@@ -29,10 +29,13 @@ class My_Vector {
 		bool operator==(const My_Vector<T>& a);
 		bool operator!=(const My_Vector<T>& a);
 
-		T& operator[](const unsigned int& i);
+		constexpr T& operator[](const unsigned int& i);
 
 		template<class T2>
 		friend std::ostream& operator<<(std::ostream& os, const My_Vector<T2>& a);
+
+		template<class T2>
+		friend std::istream& operator>>(std::istream& is, My_Vector<T2>& a);
 
 		~My_Vector();
 
@@ -246,7 +249,7 @@ bool My_Vector<T>::operator!=(const My_Vector<T>& a) {
 }
 
 template<class T>
-T& My_Vector<T>::operator[](const unsigned int& i) {
+constexpr T& My_Vector<T>::operator[](const unsigned int& i) {
 	try {
 		return elem[i];
 	}
@@ -263,6 +266,20 @@ std::ostream& operator<<(std::ostream& os, const My_Vector<T>& a) {
 		os << " " << a.elem[i] << " ";
 	}
 	return os;
+}
+
+template<class T>
+std::istream& operator>>(std::istream& is, My_Vector<T>& a) {
+	char c;
+	for(is >> c; c != ']') {
+		if (c != '[' || c != ',') {
+			T* temp = new T[++(a.size)];
+			for (int i = 0; i < a.size; ++i) {
+				temp[i] = a.elem[i];
+			}
+			is >> a.elem[a.size];
+		}
+	}
 }
 
 template<class T>

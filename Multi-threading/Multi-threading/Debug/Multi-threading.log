@@ -1,0 +1,7 @@
+﻿  Multi-threading.cpp
+c:\users\gary\documents\visual studio 2017\projects\multi-threading\multi-threading\multi-threading.cpp(31): warning C4018: '<': signed/unsigned mismatch
+c:\users\gary\documents\visual studio 2017\projects\multi-threading\multi-threading\multi-threading.cpp(32): warning C4018: '<': signed/unsigned mismatch
+c:\users\gary\documents\visual studio 2017\projects\multi-threading\multi-threading\multi-threading.cpp(40): warning C4018: '<': signed/unsigned mismatch
+c:\users\gary\documents\visual studio 2017\projects\multi-threading\multi-threading\multi-threading.cpp(41): warning C4018: '<': signed/unsigned mismatch
+  Multi-threading.vcxproj -> C:\Users\Gary\Documents\Visual Studio 2017\Projects\Multi-threading\Debug\Multi-threading.exe
+  Multi-threading.vcxproj -> C:\Users\Gary\Documents\Visual Studio 2017\Projects\Multi-threading\Debug\Multi-threading.pdb (Partial PDB)
